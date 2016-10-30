@@ -1,0 +1,4 @@
+---
+protoc_zip: protoc-{{protoc_ver}}-{{protoc_platform}}.zip
+protoc_url: '{{protoc_mirror}}/v{{protoc_ver}}/{{protoc_zip}}'
+

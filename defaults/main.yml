@@ -1,0 +1,7 @@
+---
+protoc_ver: '3.1.0'
+protoc_platform: linux-x86_64
+protoc_mirror: https://github.com/google/protobuf/releases/download
+protoc_install_dir: /usr/local
+
+

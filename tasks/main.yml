@@ -1,0 +1,26 @@
+---
+- name: download archive
+  become: yes
+  become_user: root
+  get_url: >-
+    url={{protoc_url}}
+    dest=/tmp/{{protoc_zip}}
+    mode=0644
+
+- name: unarchive/install
+  become: yes
+  become_user: root
+  unarchive: >-
+    copy=no
+    src=/tmp/{{protoc_zip}}
+    dest={{protoc_install_dir}}
+    creates={{protoc_install_dir}}/bin/protoc
+
+- name: mark protoc as executable
+  become: yes
+  become_user: root
+  file: >-
+    path={{protoc_install_dir}}/bin/protoc
+    mode=0755
+    state=file
+
