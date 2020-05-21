@@ -1,7 +1,23 @@
 ---
-protoc_ver: '3.1.0'
+protoc_ver: '3.12.1'
 protoc_platform: linux-x86_64
-protoc_mirror: https://github.com/google/protobuf/releases/download
-protoc_install_dir: /usr/local
-
-
+protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
+protoc_parent_install_dir: /usr/local
+protoc_checksums:
+  '3.12.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.1/protoc-3.12.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:993eff712d16f65fe38a4f408d30c5592864861465d4e52035ab193d43d72d8f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.1/protoc-3.12.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:3899d27597869e2d06b6f12a55d74cf2210e5db40ab5b1587eb821e9fc1eb5c4
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.1/protoc-3.12.1-linux-s390x.zip
+    linux-s390x: sha256:66b9346a18baaabc3ac338b9ec368654f6ef31c12713405049f2b5b61afc24d5
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.1/protoc-3.12.1-linux-x86_32.zip
+    linux-x86_32: sha256:35ffed8e944496b7507ba639e3bd3bb9c61648e3fb6ff44a9cf6306168d230b3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.1/protoc-3.12.1-linux-x86_64.zip
+    linux-x86_64: sha256:d85fa734ac71eb7c1ea140b695511c00f678c14e11543c812ac2d348c03c379f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.1/protoc-3.12.1-osx-x86_64.zip
+    osx-x86_64: sha256:8b259356819dbdd7eabfd5dec14ba7e00e4d417a12d55b2e987a9fe93b0f0415
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.1/protoc-3.12.1-win32.zip
+    win32: sha256:695b8878ec68f49d020c91c4da9ba82d0729b71cb588ace81a2203b01c353e5c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.1/protoc-3.12.1-win64.zip
+    win64: sha256:49f974bd6f405558ae042d6710a6a02ab636e2a2fa6dd50a7879c115511194f4

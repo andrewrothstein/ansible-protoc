@@ -1,7 +1,8 @@
-andrewrothstein.protoc
+andrewrothstein.rolename
 =========
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-rolename.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-rolename)
 
-Installs the Protocol Buffers compiler
+A brief description of the andrewrothstein.rolename goes here.
 
 Requirements
 ------------
@@ -21,9 +22,11 @@ See [meta/main.yml](meta/main.yml)
 Example Playbook
 ----------------
 
-    - hosts: servers
-      roles:
-         - username.rolename
+```yml
+- hosts: servers
+  roles:
+    - andrewrothstein.rolename
+```
 
 License
 -------
@@ -33,4 +36,4 @@ MIT
 Author Information
 ------------------
 
-Andrew Rothstein andrew.rothstein@gmail.com
+Andrew Rothstein <andrew.rothstein@gmail.com>

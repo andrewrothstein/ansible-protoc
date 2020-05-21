@@ -1,26 +1,67 @@
 ---
-- name: download archive
+- name: resolve platform specific vars
+  include_vars: '{{ item }}'
+  with_first_found:
+    - files:
+        - '{{ ansible_distribution }}-{{ ansible_distribution_release }}.yml'
+        - '{{ ansible_distribution }}.yml'
+        - '{{ ansible_os_family }}.yml'
+      skip: true
+      paths:
+        - '{{ role_path }}/vars'
+- name: look for install
+  become: yes
+  stat:
+    path: '{{ protoc_install_dir }}'
+  changed_when: False
+  register: protoc_binary
+- when: not protoc_binary.stat.exists
+  block:
+    - name: download archive
+      become: yes
+      become_user: root
+      get_url:
+        url: '{{ protoc_url }}'
+        dest: /tmp/{{ protoc_zip }}
+        checksum: '{{ protoc_checksum }}'
+        mode: '0644'
+    - name: mkdir
+      become: yes
+      become_user: root
+      file:
+        path: '{{ protoc_install_dir }}'
+        state: directory
+        mode: 0755
+    - name: unarchive/install
+      become: yes
+      become_user: root
+      unarchive:
+        remote_src: yes
+        src: /tmp/{{ protoc_zip }}
+        dest: '{{ protoc_install_dir }}'
+        creates: '{{ protoc_install_dir }}/bin/protoc'
+  always:
+    - name: cleanup
+      become: yes
+      become_user: root
+      file:
+        path: /tmp/{{ protoc_zip }}
+        state: absent
+- name: mark executables executable
   become: yes
   become_user: root
-  get_url: >-
-    url={{protoc_url}}
-    dest=/tmp/{{protoc_zip}}
-    mode=0644
-
-- name: unarchive/install
+  with_items:
+    - protoc
+  file:
+    path: '{{ protoc_install_dir }}/bin/{{ item }}'
+    mode: '0755'
+    state: file
+- name: link executables...
   become: yes
   become_user: root
-  unarchive: >-
-    copy=no
-    src=/tmp/{{protoc_zip}}
-    dest={{protoc_install_dir}}
-    creates={{protoc_install_dir}}/bin/protoc
-
-- name: mark protoc as executable
-  become: yes
-  become_user: root
-  file: >-
-    path={{protoc_install_dir}}/bin/protoc
-    mode=0755
-    state=file
-
+  with_items:
+    - protoc
+  file:
+    src: '{{ protoc_install_dir }}/bin/{{ item }}'
+    dest: '{{ protoc_parent_install_dir }}/bin/{{ item }}'
+    state: link

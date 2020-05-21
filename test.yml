@@ -1,4 +1,9 @@
 ---
 - hosts: all
   roles:
-    - role: '{{playbook_dir}}'
+  - role: '{{ playbook_dir }}'
+  tasks:
+  - command: /usr/local/bin/protoc --version
+    register: protoc_test_output
+  - debug:
+      msg: '{{ protoc_test_output.stdout }}'
