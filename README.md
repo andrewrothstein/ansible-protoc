@@ -1,8 +1,8 @@
-andrewrothstein.rolename
+andrewrothstein.protoc
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-rolename.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-rolename)
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-protoc.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-protoc)
 
-A brief description of the andrewrothstein.rolename goes here.
+Installs [protoc](https://developers.google.com/protocol-buffers/)
 
 Requirements
 ------------
@@ -25,7 +25,7 @@ Example Playbook
 ```yml
 - hosts: servers
   roles:
-    - andrewrothstein.rolename
+    - andrewrothstein.protoc
 ```
 
 License
