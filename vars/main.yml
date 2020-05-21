@@ -3,5 +3,3 @@ protoc_zip: protoc-{{ protoc_ver }}-{{ protoc_platform }}.zip
 protoc_url: '{{ protoc_mirror }}/v{{ protoc_ver }}/{{ protoc_zip }}'
 protoc_checksum: '{{ protoc_checksums[protoc_ver][protoc_platform] }}'
 protoc_install_dir: '{{ protoc_parent_install_dir }}/protoc-{{ protoc_ver }}'
-
-
