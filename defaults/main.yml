@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.12.2
+protoc_ver: 3.12.3
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -38,3 +38,20 @@ protoc_checksums:
     win32: sha256:fce0d8eccdc3145e742d3a8ccf7e05d396982598f053d4ff4f8f3bb95d4e8609
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.2/protoc-3.12.2-win64.zip
     win64: sha256:79252db5071cf287b29c83a41b9aa78776f1ac8854b3040867c73fca49936bec
+  '3.12.3':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-linux-aarch_64.zip
+    linux-aarch_64: sha256:f856295c89d040987908e5b1abfb6e65943ed92407cbff9f545395aee354160c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:44727be87b902d8d9ebed1ec528a783d155a78834c7e7f70cde6ff7771950150
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-linux-s390x.zip
+    linux-s390x: sha256:37a58402306c2b46e060e64d98a497bf257f5163e6e1c87cc0172402c4c24052
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-linux-x86_32.zip
+    linux-x86_32: sha256:a6a19e11ec4b6e8c59463ce261662fef07a69c629370234d1c5e146f607b3c70
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-linux-x86_64.zip
+    linux-x86_64: sha256:90257aed22e983a6772fb5af259a14d8f78deac0814a7df76a741975ffeea1c0
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-osx-x86_64.zip
+    osx-x86_64: sha256:e900edb8f19b8583ed2c2115138f40fb7ddbe2a71a05207ee3a0476e75ccaaa9
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-win32.zip
+    win32: sha256:a796499801b54e6a1ea0f5f0e689041411a45ea1a8a2550d92a14ee7c17156d2
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-win64.zip
+    win64: sha256:88dd84d8df26950edd2af41f4ccdbad7461eba7cf9383f5025a99218395a308f
