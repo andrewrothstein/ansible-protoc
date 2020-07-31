@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.12.3
+protoc_ver: 3.12.4
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -55,3 +55,20 @@ protoc_checksums:
     win32: sha256:a796499801b54e6a1ea0f5f0e689041411a45ea1a8a2550d92a14ee7c17156d2
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-win64.zip
     win64: sha256:88dd84d8df26950edd2af41f4ccdbad7461eba7cf9383f5025a99218395a308f
+  '3.12.4':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.4/protoc-3.12.4-linux-aarch_64.zip
+    linux-aarch_64: sha256:30b4597db5d7c5c1c473f7c51d965890f025009917e1e02f06a6a72a44135002
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.4/protoc-3.12.4-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:09d47a4cdebc5749571ca953e70c6453b837510535a3469a1f4cb380fb076f41
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.4/protoc-3.12.4-linux-s390x.zip
+    linux-s390x: sha256:a71a420c17efb8eb114af341847b17897dbe3ba2f58de4f117a609cfc03ff1cd
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.4/protoc-3.12.4-linux-x86_32.zip
+    linux-x86_32: sha256:a793a8707c6ccff00be771f6e19fb8bd133f647fd85388c90ad704b038d82a7e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.4/protoc-3.12.4-linux-x86_64.zip
+    linux-x86_64: sha256:d0d4c7a3c08d3ea9a20f94eaface12f5d46d7b023fe2057e834a4181c9e93ff3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.4/protoc-3.12.4-osx-x86_64.zip
+    osx-x86_64: sha256:210227683a5db4a9348cd7545101d006c5829b9e823f3f067ac8539cb387519e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.4/protoc-3.12.4-win32.zip
+    win32: sha256:3cbbb70216c9aec8e82f5733ef70bb36225faa0db92cf37bacde5ee581882141
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.12.4/protoc-3.12.4-win64.zip
+    win64: sha256:61b843af43afd5291897be1348b58e22764a3402db51538dce9d7f242091fa76
