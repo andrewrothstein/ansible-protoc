@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.14.0
+protoc_ver: 3.15.3
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -89,3 +89,20 @@ protoc_checksums:
     win32: sha256:9cd554c92d4fa335a06f073e8196bed58bf1590d8b3b6d05b8a3fe36da100fcd
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.14.0/protoc-3.14.0-win64.zip
     win64: sha256:642554ed4dd2dba94e1afddcccdd7d832999cea309299cc5952f13db389894f8
+  '3.15.3':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.3/protoc-3.15.3-linux-aarch_64.zip
+    linux-aarch_64: sha256:5e5dd98d328f167296403d512a0789acb622089d99ed9833edf6fc498d6d0cdc
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.3/protoc-3.15.3-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:5e6ad09cc6c7ae072e9bd7372f43753aa0807d1db29b5c8ce50450a2665e0e19
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.3/protoc-3.15.3-linux-s390x.zip
+    linux-s390x: sha256:3befd9fd327ec7f7920e82f0bd2228b3a7626548cceb4a961df22d58241045a8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.3/protoc-3.15.3-linux-x86_32.zip
+    linux-x86_32: sha256:9f07910e7d1fb59470ef12d24e2463d5f9028274a1714ab5e08caa8946489309
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.3/protoc-3.15.3-linux-x86_64.zip
+    linux-x86_64: sha256:acf79987ffaac565f24a59b738f932377c783fb9615347fd6fade5dadd863242
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.3/protoc-3.15.3-osx-x86_64.zip
+    osx-x86_64: sha256:ed3a657ea591eb7b314b81a01aac55e2fbb1cf82966bff1603de0bbae80cb9b9
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.3/protoc-3.15.3-win32.zip
+    win32: sha256:0b56e6b81fef34f348568b32216ab92932f3b6b79e5a9b259b47bd399884b7e4
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.3/protoc-3.15.3-win64.zip
+    win64: sha256:bf600c6cab7d6928195d5719f2a0169a9e9ebd3c5d6425c0a215284087e775b3
