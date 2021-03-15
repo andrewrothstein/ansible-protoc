@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.15.3
+protoc_ver: 3.15.5
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -106,3 +106,20 @@ protoc_checksums:
     win32: sha256:0b56e6b81fef34f348568b32216ab92932f3b6b79e5a9b259b47bd399884b7e4
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.3/protoc-3.15.3-win64.zip
     win64: sha256:bf600c6cab7d6928195d5719f2a0169a9e9ebd3c5d6425c0a215284087e775b3
+  '3.15.5':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.5/protoc-3.15.5-linux-aarch_64.zip
+    linux-aarch_64: sha256:bf61b1d48d00fb592d54308f24fbfa60579a643388e8582f08ab15ad1f18259e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.5/protoc-3.15.5-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:c3411d6541c17b24cc07188dd90d239041d902e5668ca93d4195054e6ce18cab
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.5/protoc-3.15.5-linux-s390x.zip
+    linux-s390x: sha256:2e8bcb75a7bb546586b9547674d88f5eb11bd64e6240fa2daa71413ca2270cbe
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.5/protoc-3.15.5-linux-x86_32.zip
+    linux-x86_32: sha256:3b93c204b220fa39d2fa00aa9d95600a996925815d46e643d288d8201f51a5fd
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.5/protoc-3.15.5-linux-x86_64.zip
+    linux-x86_64: sha256:7358bf688ddad8d6ba430240b44e644c88c4678a21221987cd8d2a0dbf119beb
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.5/protoc-3.15.5-osx-x86_64.zip
+    osx-x86_64: sha256:32486315264e9c296009ae7148297c599b935dd62a886e82be2a599c380f7f88
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.5/protoc-3.15.5-win32.zip
+    win32: sha256:bbbf58f3f611a3fc0ea0d6018d477add3501586b4d1aeb61c088580618d25046
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.5/protoc-3.15.5-win64.zip
+    win64: sha256:e603e725375e4f38cc08cedcd354847109a261ec44561480e216458a4c904afd
