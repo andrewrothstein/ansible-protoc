@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.15.5
+protoc_ver: 3.15.6
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -123,3 +123,20 @@ protoc_checksums:
     win32: sha256:bbbf58f3f611a3fc0ea0d6018d477add3501586b4d1aeb61c088580618d25046
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.5/protoc-3.15.5-win64.zip
     win64: sha256:e603e725375e4f38cc08cedcd354847109a261ec44561480e216458a4c904afd
+  '3.15.6':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-linux-aarch_64.zip
+    linux-aarch_64: sha256:13f6ee95d36165b8a1b566379abb211d76a5a6add38aa912541a27ce4e8de63d
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:676cd89ad9d6cf9342b20142e7e05c643787ca0ab766762c9da7bee34fa10d5d
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-linux-s390x.zip
+    linux-s390x: sha256:44be2a318a170d34791f5bc48983ac11aa48ead6b130d068550d4dd1b0da58a1
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-linux-x86_32.zip
+    linux-x86_32: sha256:450395f92a8d2430c47ec17ecbf7d87247e276b8fe8b7decb1ea5f70a527eacc
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-linux-x86_64.zip
+    linux-x86_64: sha256:38a2f024a0ce68897b1868c59b613939bd41f16c0c8d8890843eccdbbf46ab00
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-osx-x86_64.zip
+    osx-x86_64: sha256:ca025c889efbe02f390b251c153c752a05fb04f5ac8c93929f8dba2818a5392a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-win32.zip
+    win32: sha256:980dd58dd40ab1b5d0d9410365c4068a204c8e20fccca0ebc26274e7364a408f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-win64.zip
+    win64: sha256:d4cd42275a32c3dbc194aa3c884a5b487688befcf5e03e5aa7837702a779ba30
