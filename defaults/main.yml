@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.15.6
+protoc_ver: 3.15.7
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -140,3 +140,20 @@ protoc_checksums:
     win32: sha256:980dd58dd40ab1b5d0d9410365c4068a204c8e20fccca0ebc26274e7364a408f
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-win64.zip
     win64: sha256:d4cd42275a32c3dbc194aa3c884a5b487688befcf5e03e5aa7837702a779ba30
+  '3.15.7':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.7/protoc-3.15.7-linux-aarch_64.zip
+    linux-aarch_64: sha256:2474949b912baff9dfcdcde8a0fc5fffad8c2d453687d4df09954be9dcaaf2d5
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.7/protoc-3.15.7-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:91f560f900bef2ed5c21c77e4aa7dd73708d133ffa7081075bd8c78dcd434e70
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.7/protoc-3.15.7-linux-s390x.zip
+    linux-s390x: sha256:0ce5a674047e190339f46e84e1f33901919e1f0711b6c2ddebfff1bd624e808f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.7/protoc-3.15.7-linux-x86_32.zip
+    linux-x86_32: sha256:562544fb0a739c00efffd947b525386d32e460e548b7955b661bc3ac20f0e267
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.7/protoc-3.15.7-linux-x86_64.zip
+    linux-x86_64: sha256:28b8ca3c0f91441ca80598ced2584e58f8281ebfaf0e6377fea45301eddee94f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.7/protoc-3.15.7-osx-x86_64.zip
+    osx-x86_64: sha256:4f568bea2fd0087c9726e43a6610fd726d0fb17a447f40f7e4f5490a63b69b90
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.7/protoc-3.15.7-win32.zip
+    win32: sha256:bda2449efb497fe2885284f3dd0507cfab95e8e08cf604813fe99f43c4dcc330
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.7/protoc-3.15.7-win64.zip
+    win64: sha256:d592c46b83f1700dfe9588afdd19ef4eaa0c6b114daeb19ce26e98df5e46c123
