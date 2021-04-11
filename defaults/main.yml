@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.15.7
+protoc_ver: 3.15.8
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -157,3 +157,20 @@ protoc_checksums:
     win32: sha256:bda2449efb497fe2885284f3dd0507cfab95e8e08cf604813fe99f43c4dcc330
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.7/protoc-3.15.7-win64.zip
     win64: sha256:d592c46b83f1700dfe9588afdd19ef4eaa0c6b114daeb19ce26e98df5e46c123
+  '3.15.8':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.8/protoc-3.15.8-linux-aarch_64.zip
+    linux-aarch_64: sha256:c60bd7942267fdf4108eea40c0a9781ea56c9261538b03b2bd96b3b898958033
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.8/protoc-3.15.8-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:9a8ad23546889848d3afefc3bbc4e0a536bcdce046c0a9e1a11eac8410801750
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.8/protoc-3.15.8-linux-s390x.zip
+    linux-s390x: sha256:f7057e9a9245b60fd624b06de366b84676242a1dc889e75cdff15e65f70a945b
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.8/protoc-3.15.8-linux-x86_32.zip
+    linux-x86_32: sha256:2b1b45ec248747ad95a774694011b26605611ed55b402d262923cf751a58c145
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.8/protoc-3.15.8-linux-x86_64.zip
+    linux-x86_64: sha256:b9ff821d2a4f9e9943dc2a13e6a76d99c7472dac46ddd3718a3a4c3b877c044a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.8/protoc-3.15.8-osx-x86_64.zip
+    osx-x86_64: sha256:ab11029340de61bb707a4d564ceeb580d31436f5466fad2194c91beb040aa828
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.8/protoc-3.15.8-win32.zip
+    win32: sha256:ec9081e6f0ad1b7e2737673eacbda9a9c0046ab4a25f7b5cfcd833c419e11469
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.8/protoc-3.15.8-win64.zip
+    win64: sha256:43ae4e797e4a0a82e65e27adf624c3d6f314f1ed2a18e492632a91dd3c9673c1
