@@ -29,7 +29,7 @@ dl_ver() {
 
     dl $ver linux-aarch_64
     dl $ver linux-ppcle_64
-    dl $ver linux-s390x
+    dl $ver linux-s390_64
     dl $ver linux-x86_32
     dl $ver linux-x86_64
     dl $ver osx-x86_64
@@ -37,4 +37,4 @@ dl_ver() {
     dl $ver win64
 }
 
-dl_ver ${1:-3.15.8}
+dl_ver ${1:-3.17.1}

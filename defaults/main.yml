@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.15.8
+protoc_ver: 3.17.1
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -174,3 +174,20 @@ protoc_checksums:
     win32: sha256:ec9081e6f0ad1b7e2737673eacbda9a9c0046ab4a25f7b5cfcd833c419e11469
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.15.8/protoc-3.15.8-win64.zip
     win64: sha256:43ae4e797e4a0a82e65e27adf624c3d6f314f1ed2a18e492632a91dd3c9673c1
+  '3.17.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:00993203265b01379d706f2e916ac3d8e4a62c44af3dc017ff172583c548ae14
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:32092112886c1ffa1a43339eee02257d074d7856c640c30897c19c158f85d643
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-linux-s390_64.zip
+    linux-s390_64: sha256:391e748a5e841d54db6d1f544527ba7af08f068063192558e23dcb80702fb455
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-linux-x86_32.zip
+    linux-x86_32: sha256:892ded4477ae0e703029ebb538dec8622cb15967059a5ec1a72e3fb2fe3277c0
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-linux-x86_64.zip
+    linux-x86_64: sha256:5c67fed93a7817be8d579dd0c03884e1ef341780acdf25d683e55225d54cce25
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-osx-x86_64.zip
+    osx-x86_64: sha256:acd3ce18bdf4bbbff46354e140fad03315f7c17f67d38289ff35f802539cc09f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-win32.zip
+    win32: sha256:ef1ec7d2b830441b426c2fec96e6b7150a6fbef0198efefaf9f66f268bd2bb36
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-win64.zip
+    win64: sha256:4d1ab199f90fab09e20e5dfc45b4afe7d08ab1f4fe2762aaddcd4fafaa6bcd61
