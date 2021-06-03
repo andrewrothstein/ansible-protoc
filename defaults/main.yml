@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.17.1
+protoc_ver: 3.17.2
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -191,3 +191,20 @@ protoc_checksums:
     win32: sha256:ef1ec7d2b830441b426c2fec96e6b7150a6fbef0198efefaf9f66f268bd2bb36
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.1/protoc-3.17.1-win64.zip
     win64: sha256:4d1ab199f90fab09e20e5dfc45b4afe7d08ab1f4fe2762aaddcd4fafaa6bcd61
+  '3.17.2':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.2/protoc-3.17.2-linux-aarch_64.zip
+    linux-aarch_64: sha256:220e81977ebbd86a39fea2ca794d0305d765c6b94ca8d9ef1a3603a6415f7311
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.2/protoc-3.17.2-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:d4492339409576fde11b46dbd99a729348623fd7eda2f4e70f2b3f33e2ea2b9d
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.2/protoc-3.17.2-linux-s390_64.zip
+    linux-s390_64: sha256:643e64c38d0dca472df7c8e0ba6e844c3d05a84fcd4b9348f5a424a03179f383
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.2/protoc-3.17.2-linux-x86_32.zip
+    linux-x86_32: sha256:70f9a1c38ce2bf71d9171f2a437e6108a405e9a049212a2109bd1fc986ac373c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.2/protoc-3.17.2-linux-x86_64.zip
+    linux-x86_64: sha256:98e2253e513620bb6cb6f5654c3586107cafcd789cc1c778bba780607b335c03
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.2/protoc-3.17.2-osx-x86_64.zip
+    osx-x86_64: sha256:d6f71643e0e56e4775ae915bb8a942b84629e8620722549b6cbab485fbbcf84e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.2/protoc-3.17.2-win32.zip
+    win32: sha256:e32fa571458b02cc2e0adcb69c838b65408498ee2e33fb3fddce20a7dea785cf
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.2/protoc-3.17.2-win64.zip
+    win64: sha256:73451257945cc889eea6fc912bdf02023a5f12054b4ec39e8c5ba048b6b1d8fc
