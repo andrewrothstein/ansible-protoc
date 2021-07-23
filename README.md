@@ -1,6 +1,6 @@
 andrewrothstein.protoc
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-protoc.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-protoc)
+![Build Status](https://github.com/andrewrothstein/ansible-protoc/actions/workflows/build.yml/badge.svg)
 
 Installs [protoc](https://developers.google.com/protocol-buffers/)
 
