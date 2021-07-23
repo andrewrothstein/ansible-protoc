@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.17.2
+protoc_ver: 3.17.3
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -208,3 +208,20 @@ protoc_checksums:
     win32: sha256:e32fa571458b02cc2e0adcb69c838b65408498ee2e33fb3fddce20a7dea785cf
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.2/protoc-3.17.2-win64.zip
     win64: sha256:73451257945cc889eea6fc912bdf02023a5f12054b4ec39e8c5ba048b6b1d8fc
+  '3.17.3':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-linux-aarch_64.zip
+    linux-aarch_64: sha256:ceb29d4890a31ba871829d22c2b7fa28f237d2b91ce4ea2a53e893d60a1cd502
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:e8f34f40ab548c977cc434f27f6d64416d00d809d98d7da2ccd53c4fa8f9c450
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-linux-s390_64.zip
+    linux-s390_64: sha256:1f6b42a88277ce779257e98a10d7b46241a69973d0ed28e58151da7e3085bb2e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-linux-x86_32.zip
+    linux-x86_32: sha256:93efc86a0268e3479d5bac0584cfed71b531b5c13089eea3be49854c64afa55d
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-linux-x86_64.zip
+    linux-x86_64: sha256:d4246a5136cf9cd1abc851c521a1ad6b8884df4feded8b9cbd5e2a2226d4b357
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-osx-x86_64.zip
+    osx-x86_64: sha256:68901eb7ef5b55d7f2df3241ab0b8d97ee5192d3902c59e7adf461adc058e9f1
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-win32.zip
+    win32: sha256:b3140694d94ad6ab34c4c4ff5a3ca76a6822cb7e18cdd852bb06c9509ccac93e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-win64.zip
+    win64: sha256:c78d42bea30771b81bb3839128ad7ef528b376680bba489998b4a3cd5a495a47
