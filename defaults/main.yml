@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.17.3
+protoc_ver: 3.18.1
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -225,3 +225,20 @@ protoc_checksums:
     win32: sha256:b3140694d94ad6ab34c4c4ff5a3ca76a6822cb7e18cdd852bb06c9509ccac93e
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-win64.zip
     win64: sha256:c78d42bea30771b81bb3839128ad7ef528b376680bba489998b4a3cd5a495a47
+  '3.18.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.18.1/protoc-3.18.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:c199349928f597635d43da8233fbdb02c35742bd38744c6428e7ee593dae513c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.18.1/protoc-3.18.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:165860bbbf0ba601a627d858dcadc6cd1b03ae457cea2664969f3188d3953cb6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.18.1/protoc-3.18.1-linux-s390_64.zip
+    linux-s390_64: sha256:6cd31101feecf6b9a6b1208150385184cb1a73b0ab6b66e4b84cc3600bedf7ad
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.18.1/protoc-3.18.1-linux-x86_32.zip
+    linux-x86_32: sha256:b4d7a4f8a3ac6acc852e5b4aab1bceda44e0ece7c8cea7e07ba5c7a77b0c3adf
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.18.1/protoc-3.18.1-linux-x86_64.zip
+    linux-x86_64: sha256:220bd1704c73dbf4d0a91399a2ecf9d19938b5cd80c8a38839a023d8b87bb772
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.18.1/protoc-3.18.1-osx-x86_64.zip
+    osx-x86_64: sha256:66cc93e7f9e6a3f8c19050e4ac09dc06006cf86fdf6be972e32ad8fcb7c92ee3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.18.1/protoc-3.18.1-win32.zip
+    win32: sha256:5a0c1403bf6ba4f6543349740be0e63ce1d90f6dc7b3c9d4b2cafc539e717923
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.18.1/protoc-3.18.1-win64.zip
+    win64: sha256:9a011a301b9e4fe760b2322b3c58900a9f837281db97d95217b66b7368a5bae8
