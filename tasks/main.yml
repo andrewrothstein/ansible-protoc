@@ -10,15 +10,15 @@
       paths:
         - '{{ role_path }}/vars'
 - name: look for install in {{ protoc_install_dir }}
-  become: yes
+  become: true
   stat:
     path: '{{ protoc_install_dir }}'
-  changed_when: False
+  changed_when: false
   register: protoc_binary
 - when: not protoc_binary.stat.exists
   block:
     - name: downloading {{ protoc_url }} to {{ protoc_tmp_zip }}
-      become: yes
+      become: true
       become_user: root
       get_url:
         url: '{{ protoc_url }}'
@@ -26,29 +26,29 @@
         checksum: '{{ protoc_checksum }}'
         mode: '0644'
     - name: mkdir {{ protoc_install_dir }}
-      become: yes
+      become: true
       become_user: root
       file:
         path: '{{ protoc_install_dir }}'
         state: directory
         mode: 0755
     - name: unarchiving {{ protoc_tmp_zip }}
-      become: yes
+      become: true
       become_user: root
       unarchive:
-        remote_src: yes
+        remote_src: true
         src: '{{ protoc_tmp_zip }}'
         dest: '{{ protoc_install_dir }}'
         creates: '{{ protoc_install_dir }}/bin/protoc'
   always:
     - name: rm {{ protoc_tmp_zip }}
-      become: yes
+      become: true
       become_user: root
       file:
         path: '{{ protoc_tmp_zip }}'
         state: absent
 - name: mark executables/directories as executable/readable
-  become: yes
+  become: true
   become_user: root
   with_items:
     - p: '{{ protoc_install_dir }}/bin'
@@ -62,7 +62,7 @@
     mode: '0755'
     state: '{{ item.t }}'
 - name: link executables...
-  become: yes
+  become: true
   become_user: root
   with_items:
     - protoc
