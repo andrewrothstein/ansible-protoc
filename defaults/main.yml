@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.19.1
+protoc_ver: 3.19.2
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -259,3 +259,20 @@ protoc_checksums:
     win32: sha256:ce84bd3d3287555ec99da21a7e6e91c7385b64b018343f04b76337933209b69f
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.1/protoc-3.19.1-win64.zip
     win64: sha256:7e904214696702285aa5b503a86fa38a14c9eeb0f3fe10ff3115a74e3a90dae8
+  '3.19.2':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.2/protoc-3.19.2-linux-aarch_64.zip
+    linux-aarch_64: sha256:d14af76a12eaf22cb96c9eec4c82b2132f3b1ee29bd43e07551e4a3cef5cc16a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.2/protoc-3.19.2-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:b61467465e00ec86bc08b3a782f99abceadbcd91ac5c6124fe150db7a6426f66
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.2/protoc-3.19.2-linux-s390_64.zip
+    linux-s390_64: sha256:494c25dfbc302472de03b38959b149d94f6a29be3a7644e71b3d605d3b125e30
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.2/protoc-3.19.2-linux-x86_32.zip
+    linux-x86_32: sha256:1d4296cade2fe12215064d440a5c692681b5a0cda02ac9ca2b4e742baa6ad30f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.2/protoc-3.19.2-linux-x86_64.zip
+    linux-x86_64: sha256:595ac0beaa7d2d6a672911b3b39a27fea964a5e76eeeba418a4bd3c4e8f72405
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.2/protoc-3.19.2-osx-x86_64.zip
+    osx-x86_64: sha256:1af3bdcd1e684d7cbf498749f630574609f75bc33e50b03e0c9f7243d9986771
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.2/protoc-3.19.2-win32.zip
+    win32: sha256:0135c6abdfc7a81e5ee9cdac8ffd7380d0bb95eacf7504f6e3570cf0e8d7e1c9
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.2/protoc-3.19.2-win64.zip
+    win64: sha256:465eabb87b38c1f26f0c5404561611ad5ed9f961bd0cda095a112f641846c3d0
