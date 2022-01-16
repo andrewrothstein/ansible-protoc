@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.19.2
+protoc_ver: 3.19.3
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -276,3 +276,20 @@ protoc_checksums:
     win32: sha256:0135c6abdfc7a81e5ee9cdac8ffd7380d0bb95eacf7504f6e3570cf0e8d7e1c9
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.2/protoc-3.19.2-win64.zip
     win64: sha256:465eabb87b38c1f26f0c5404561611ad5ed9f961bd0cda095a112f641846c3d0
+  '3.19.3':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protoc-3.19.3-linux-aarch_64.zip
+    linux-aarch_64: sha256:a3c90277592b91e2e2d80a2e1d87157f266129b05fb8b626f54015fff61e0f73
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protoc-3.19.3-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:2b67e7b43dce237bcc3887604592e5545d56455c92d21dae36b63085a6edbc7e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protoc-3.19.3-linux-s390_64.zip
+    linux-s390_64: sha256:cab1cda7b55be236c2197144089e02f6662ec3d0f93887b2fee8c95284344dda
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protoc-3.19.3-linux-x86_32.zip
+    linux-x86_32: sha256:d19e09f5cdd2c3b9c3d1b41496c25dffb8c6743ec941c12920814b5775538c5e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protoc-3.19.3-linux-x86_64.zip
+    linux-x86_64: sha256:e7acbd3f3477c593cee58cd995490c0f95dcb4058dd4677d015535fc20a372f3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protoc-3.19.3-osx-x86_64.zip
+    osx-x86_64: sha256:2321216f9e928499c1637e4267a6c516b7d8c9aa1581e4e723ae924dc07a7d61
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protoc-3.19.3-win32.zip
+    win32: sha256:ed4625908f2e899eb877f232e11dd60fc982643875585692961b3db0046b6189
+    # https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protoc-3.19.3-win64.zip
+    win64: sha256:bebc4581a2cef829fd20c7b36d3d55e70305e85b1fc8530762c0155c51c46f31
