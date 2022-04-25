@@ -37,4 +37,4 @@ dl_ver() {
     dl $ver win64
 }
 
-dl_ver ${1:-3.19.4}
+dl_ver ${1:-3.20.1}
