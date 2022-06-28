@@ -32,9 +32,10 @@ dl_ver() {
     dl $ver linux-s390_64
     dl $ver linux-x86_32
     dl $ver linux-x86_64
+    dl $ver osx-aarch_64
     dl $ver osx-x86_64
     dl $ver win32
     dl $ver win64
 }
 
-dl_ver ${1:-3.20.1}
+dl_ver ${1:-21.2}

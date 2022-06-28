@@ -1,5 +1,5 @@
 ---
-protoc_ver: 3.20.1
+protoc_ver: '21.2'
 protoc_platform: linux-x86_64
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -327,3 +327,22 @@ protoc_checksums:
     win32: sha256:2291c634777242f3bf4891b082cebc6dd495ae621fbf751b27e800b83369a345
     # https://github.com/protocolbuffers/protobuf/releases/download/v3.20.1/protoc-3.20.1-win64.zip
     win64: sha256:897bf86b9c989f91c4171c7f99e3886fedfceb077a94dd150f1401cfe922cd46
+  '21.2':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-linux-aarch_64.zip
+    linux-aarch_64: sha256:953beb8aade43f55a6f8e0aef5314236582c5cc2712d90a09221dd0bc35da71e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:597ac5c285312de725a8369078be0505f88a5f6c5049827ff03d52156e9c81e0
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-linux-s390_64.zip
+    linux-s390_64: sha256:beb58bdc984696eedbb204dda976ec771f4dd05c999f4777939d22d307f135b3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-linux-x86_32.zip
+    linux-x86_32: sha256:673e096e6bc0370f4158a9032e7351a3e9aab3611c983d44eda230d62bbbe04e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-linux-x86_64.zip
+    linux-x86_64: sha256:997dfc13189bd0af1051cbc026a095a520e171fbeb0e7460f959ae236b00aa2e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-osx-aarch_64.zip
+    osx-aarch_64: sha256:04d79d6c1da178d38867486a861bc878f5daaa084bd5697110abd27460d1112a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-osx-x86_64.zip
+    osx-x86_64: sha256:b791ee763faad751505680fa8d2935af37ba014184354df6db4268cb413bc6a1
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-win32.zip
+    win32: sha256:705b4773728949ada159790e8a303b3843930ce1adb0b934df7ec1c81d80379a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-win64.zip
+    win64: sha256:06387cd52e84c3853ff1bd81fd0c1bbdc5eed07433aef4bd291e96763228fb07
