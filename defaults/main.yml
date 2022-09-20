@@ -1,6 +1,16 @@
 ---
-protoc_ver: '21.5'
-protoc_platform: linux-x86_64
+protoc_ver: '21.6'
+protoc_os_map:
+  Linux: linux
+  Darwin: osx
+
+protoc_arch_map:
+  aarch64: aarch_64
+  ppc64le: ppcle_64
+  s390x: s390x
+  x86_64: x86_64
+  x86_32: x86_64
+
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
 protoc_checksums:
@@ -403,3 +413,22 @@ protoc_checksums:
     win32: sha256:aebf80fc77f1b7e6e3f46b737dffdc5fb8bcb8e75e89c8b56bf37c88aaa044ad
     # https://github.com/protocolbuffers/protobuf/releases/download/v21.5/protoc-21.5-win64.zip
     win64: sha256:1ecae2968d2f28364c3f43c55f687dd159568dc6b1b0dc7e1e93d99bccb896a6
+  '21.6':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-linux-aarch_64.zip
+    linux-aarch_64: sha256:4fa9797ebf391687e39397e5822bdd025b919705ed47f874e251ba749c97bf49
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:ad58afb8b9a5761ac6a3d5d9e444196263581888c1caf52d24d4e002411eb304
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-linux-s390_64.zip
+    linux-s390_64: sha256:7bcb14713fb6e26e56bbd65f8282ca98a11c9a4dca60c7c90d472fa30725f0cc
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-linux-x86_32.zip
+    linux-x86_32: sha256:e930d3707b0c4be2b6bff630cbb33246b9826baac167acf1bbc302f1fa67a6bc
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-linux-x86_64.zip
+    linux-x86_64: sha256:6a9fc36363a2d05d73fc363a46cd57d849068d33305db39f77daac8ba073e818
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-osx-aarch_64.zip
+    osx-aarch_64: sha256:0ff1958362db716b93135ccdb1084bdccb0eb420284dce8203835c8572cabe0b
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-osx-x86_64.zip
+    osx-x86_64: sha256:45ac9e669af0708a472021efe18753c7957c2f3d359100202f80d309c1c39708
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-win32.zip
+    win32: sha256:98d542b2093c6defc936a335693ac9c18b94078d7c2b03d474f3a9cba8796ebd
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-win64.zip
+    win64: sha256:f14764a3af330dd0231da43b10340db46171a6f4af9667573fe370239d7ef751
