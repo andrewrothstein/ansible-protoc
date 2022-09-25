@@ -6,6 +6,7 @@ protoc_os_map:
 
 protoc_arch_map:
   aarch64: aarch_64
+  arm64: aarch_64
   ppc64le: ppcle_64
   s390x: s390x
   x86_64: x86_64
