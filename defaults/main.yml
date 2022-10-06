@@ -1,5 +1,5 @@
 ---
-protoc_ver: '21.6'
+protoc_ver: '21.7'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -433,3 +433,22 @@ protoc_checksums:
     win32: sha256:98d542b2093c6defc936a335693ac9c18b94078d7c2b03d474f3a9cba8796ebd
     # https://github.com/protocolbuffers/protobuf/releases/download/v21.6/protoc-21.6-win64.zip
     win64: sha256:f14764a3af330dd0231da43b10340db46171a6f4af9667573fe370239d7ef751
+  '21.7':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protoc-21.7-linux-aarch_64.zip
+    linux-aarch_64: sha256:2696a8f9a61ce67c510d000c88e2d0a8b5adf1f90514e461e8d8943c46d04737
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protoc-21.7-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:ffa8298f1e64d25e09e2389edf8093fa1a70d34a042623aca769b4f7815e5490
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protoc-21.7-linux-s390_64.zip
+    linux-s390_64: sha256:983c1139e0e4ce6121028e0408919cd7a35a5c813f2df40066b05f822c1df226
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protoc-21.7-linux-x86_32.zip
+    linux-x86_32: sha256:f245128a20586fc24dcd3f64a417313a228372fb37fe108d039b8927489b1b88
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protoc-21.7-linux-x86_64.zip
+    linux-x86_64: sha256:0a260c6df439bcf1ecdd5e38e7a7648e4edf99c1a22a4cc66ce8e62c53bdb837
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protoc-21.7-osx-aarch_64.zip
+    osx-aarch_64: sha256:f79a67d708aba6ff2c6208578a6f2bf94f1528795aed646b65e99d4a678c97f8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protoc-21.7-osx-x86_64.zip
+    osx-x86_64: sha256:cd3609fa1efc73db9c58fc63e40b240558eb2a8080b4fbfbe1c4b93bbedecc20
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protoc-21.7-win32.zip
+    win32: sha256:1e3856cc5fc5074e566c7b8da90f74d2b5b6a80e3df9eafb4a86f7bb8ab32772
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protoc-21.7-win64.zip
+    win64: sha256:954cc5dfdb1d95d4c448c40f274d3720c018f73187b0c19b3c4f9bacc48d1ff0
