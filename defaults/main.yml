@@ -1,5 +1,5 @@
 ---
-protoc_ver: '21.11'
+protoc_ver: '21.12'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -509,3 +509,22 @@ protoc_checksums:
     win32: sha256:8379f5afc1efd5020842c62c7f0e2a325dcc7a89c894de5ee9a74909aacea0e6
     # https://github.com/protocolbuffers/protobuf/releases/download/v21.11/protoc-21.11-win64.zip
     win64: sha256:bd948c18291cabab37249f451f29acca11893945c9498c2545247dcb245798c1
+  '21.12':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-linux-aarch_64.zip
+    linux-aarch_64: sha256:2dd17f75d66a682640b136e31848da9fb2eefe68d55303baf8b32617374f6711
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:1e231d94daf74b34d9106d847506e4e638be7a548da373533cf7427cc40d1e8c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-linux-s390_64.zip
+    linux-s390_64: sha256:00a82f28c3362fdc34d2bce3894ebfad8c9286dbb7d43b9522c25b43fc5c25ce
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-linux-x86_32.zip
+    linux-x86_32: sha256:dd4b5972cb3de92bfff9d7d3b361a7c281d27a010c8872d1e6efc43895253f71
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-linux-x86_64.zip
+    linux-x86_64: sha256:3a4c1e5f2516c639d3079b1586e703fc7bcfa2136d58bda24d1d54f949c315e8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-osx-aarch_64.zip
+    osx-aarch_64: sha256:96839af0caed64352442fc8236f4bdf7c1cd6efcfaa98fa5db37307a73fc7c70
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-osx-x86_64.zip
+    osx-x86_64: sha256:9448ff40278504a7ae5139bb70c962acc78c32d8fc54b4890a55c14c68b9d10a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-win32.zip
+    win32: sha256:6de4ef4e65c7edb834a2a9fca6d85388adc5dd71fc8bff8b60569717d01dabea
+    # https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protoc-21.12-win64.zip
+    win64: sha256:71852a30cf62975358edfcbbff93086e8857a079c8e4d6904881aa968d65c7f9
