@@ -1,5 +1,5 @@
 ---
-protoc_ver: '22.0'
+protoc_ver: '22.3'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -547,3 +547,60 @@ protoc_checksums:
     win32: sha256:1cf031ba53b6963de475fcd07a2dbcada6c4b74ef3f8e587346603a940bbf772
     # https://github.com/protocolbuffers/protobuf/releases/download/v22.0/protoc-22.0-win64.zip
     win64: sha256:dd2a24c091f684ce9589fc76f9b5ed55dffdc0e0733bde20112f32b00771dbdb
+  '22.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:204e23069dc59bda1df5d66425c12373be39d71946fa378c3d7af44abbd651e9
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:b96c22e4b69dab9b255fd666431b7c99a4817710a1134e14d867475db9139a79
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-linux-s390_64.zip
+    linux-s390_64: sha256:7b8b4cc34cde81ff93d34b2d9f045e9b33d3a229f3efff75cd41e4f05910a6a8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-linux-x86_32.zip
+    linux-x86_32: sha256:b7164b6fdcb90ddd96da92934b498e5ecd52495e261ecd48201ec802e2f6efbf
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-linux-x86_64.zip
+    linux-x86_64: sha256:3c830b09192a8c40c599856eb184c89ee5029d7dab9df8ec6d3d6741dcb94b93
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-osx-aarch_64.zip
+    osx-aarch_64: sha256:213e82e423baf44bad1eef99cf3e21d52ce1ac2942e3bbd25a63b1f737cf6ec6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-osx-x86_64.zip
+    osx-x86_64: sha256:3cc8d30d8bffc63bb2b8b0aea0d6a126acb4f69d4c720c142f7de6b9f4f562c6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-win32.zip
+    win32: sha256:b76945901343f414685641b00638d14b05b7ffb282696f0e7d5d7aa1af77ed9f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.1/protoc-22.1-win64.zip
+    win64: sha256:359a390f6124c067026e212995e402d2e6fcd525d07e3b69d1d81cb06b5690f2
+  '22.2':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-linux-aarch_64.zip
+    linux-aarch_64: sha256:aa2efbb2d481b7ad3c2428e0aa4dd6d813e4538e6c0a1cd4d921ac998187e07e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:25485111fc74ed8cb5b67efab4d27ec4b671ae8ceb02e4b22e76dc6d89ebd197
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-linux-s390_64.zip
+    linux-s390_64: sha256:f4fb26b69a3b45f6ed045802914035ea4d13e2b0d9fb0db54fb0d4e556bee671
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-linux-x86_32.zip
+    linux-x86_32: sha256:18582e9aea85d87779ecb4a6899dcf1d43f21986a66f9da13689a44c83b9e0e8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-linux-x86_64.zip
+    linux-x86_64: sha256:15f281b36897e0ffbbe3a02f687ff9108c7a0f98bb653fb433e4bd62e698abe7
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-osx-aarch_64.zip
+    osx-aarch_64: sha256:a196fd39acd312688b58e81266fd88e9f7799967c5439738c10345a29049261d
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-osx-x86_64.zip
+    osx-x86_64: sha256:8bb75680c376190d960ef1d073618c1103960f70dc4fafa7bde872029562aec1
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-win32.zip
+    win32: sha256:e48961eb251f1efc3ecbc039108a6cf42dc0fff6401bb597b94d9fa5c1fcaa0a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.2/protoc-22.2-win64.zip
+    win64: sha256:6c2bba387b8a3d2d254eddb68376217314de8d6e9b3a43d3cd2e69c054457638
+  '22.3':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-linux-aarch_64.zip
+    linux-aarch_64: sha256:c6068d9d151c39723bc7db920759b55737a770b0c2ec544dd0197d4078d7a956
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:8973c91030137ef840ca1bad1ecdeffa0e3365d9d1547f49f275e14905a53e90
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-linux-s390_64.zip
+    linux-s390_64: sha256:bbf30a34aa0b2c94c2efad1df3ea2804d170e4ee6f49b6355cc694f9a2dbecd3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-linux-x86_32.zip
+    linux-x86_32: sha256:c4f12e65c7368dba98af5c3a951767acbd4d9b48dfc7c81e3ad744aef96d606f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-linux-x86_64.zip
+    linux-x86_64: sha256:0f8070d762eb8a2f5a13a47713a553f989f9d9b556e7e3ebfa2bd6464e2ecaeb
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-osx-aarch_64.zip
+    osx-aarch_64: sha256:79cc15d1b528061ea0a818b0abcf3be1e0bdcb063a0cc999af27974cccdc5cce
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-osx-x86_64.zip
+    osx-x86_64: sha256:d644a65064a97fa3ed033a4a2314ab35816abbd9aed052f9b1b3374d2deaaae4
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-win32.zip
+    win32: sha256:746c8a32a37acbc494320f84c5541d00e43039dae3093f6a3ed29f41236d00e6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-win64.zip
+    win64: sha256:fa7fe21bf6e204a4e1eec3ffee1d53c84e216289bc4762e072258e5bca113a3c
