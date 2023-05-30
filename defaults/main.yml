@@ -1,5 +1,5 @@
 ---
-protoc_ver: '22.3'
+protoc_ver: '23.2'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -10,7 +10,7 @@ protoc_arch_map:
   ppc64le: ppcle_64
   s390x: s390x
   x86_64: x86_64
-  x86_32: x86_64
+  x86_32: x86_32
 
 protoc_mirror: https://github.com/protocolbuffers/protobuf/releases/download
 protoc_parent_install_dir: /usr/local
@@ -604,3 +604,22 @@ protoc_checksums:
     win32: sha256:746c8a32a37acbc494320f84c5541d00e43039dae3093f6a3ed29f41236d00e6
     # https://github.com/protocolbuffers/protobuf/releases/download/v22.3/protoc-22.3-win64.zip
     win64: sha256:fa7fe21bf6e204a4e1eec3ffee1d53c84e216289bc4762e072258e5bca113a3c
+  '23.2':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.2/protoc-23.2-linux-aarch_64.zip
+    linux-aarch_64: sha256:12c9385da533dd5fe6fd57e0c5cdb7004d8c08af94a80c75614c50f1f31d92e0
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.2/protoc-23.2-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:0a7a7e7e35195bf21d1affcc715fb5b46104aef942c9fff69acef577e6668877
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.2/protoc-23.2-linux-s390_64.zip
+    linux-s390_64: sha256:65b3e05641126b8e169e229fd43c94bf48131942be8cd2f6e67a7c9dc5d47781
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.2/protoc-23.2-linux-x86_32.zip
+    linux-x86_32: sha256:1758635feb05a9bcc8e488a59668b75671044f0c88097b002a83a0cda537d3ad
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.2/protoc-23.2-linux-x86_64.zip
+    linux-x86_64: sha256:179a759581bf4b32cc5edae4ffce6b8ee16ba4f4ab99ad3a309c31113f98d472
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.2/protoc-23.2-osx-aarch_64.zip
+    osx-aarch_64: sha256:9fffa243509db34492c6dee031b361c538b2b65720ac253c319034e7f38e2cc8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.2/protoc-23.2-osx-x86_64.zip
+    osx-x86_64: sha256:0c19eb51f450687557dd61b9859ae898f52143c39372e8cb6f0b648d5423e24a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.2/protoc-23.2-win32.zip
+    win32: sha256:742e6c1df176aeb476a9559ca6dae4767c1c4f30d084ffc2eaa3a88b987dec71
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.2/protoc-23.2-win64.zip
+    win64: sha256:ca92eb9ca61ada5410211a9f8be7f0a5118f490e402c821ec1f61bb12b132c36
