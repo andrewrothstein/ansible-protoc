@@ -1,5 +1,5 @@
 ---
-protoc_ver: '23.3'
+protoc_ver: '23.4'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -642,3 +642,22 @@ protoc_checksums:
     win32: sha256:f79d3754b3cd2c811ec2f387039b7b983a1a6014b81f6d2822422b39b9cbf477
     # https://github.com/protocolbuffers/protobuf/releases/download/v23.3/protoc-23.3-win64.zip
     win64: sha256:a55295e95fd803351eacd40143d11c037a917beceb4db5894dfd188224627239
+  '23.4':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-linux-aarch_64.zip
+    linux-aarch_64: sha256:1c7750b6e038305b5a7fc3d0cda1ebefdf106a4f30a787bf826ed2fc47c3967d
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:4e290796cd8e972352068a05651ae4c9bcb8db06f656bd4584b674e027c585d7
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-linux-s390_64.zip
+    linux-s390_64: sha256:be43c81d59a6bb7d4b060246acbfcb5d695aa8f872a964146789ac49e95982f8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-linux-x86_32.zip
+    linux-x86_32: sha256:354a4b2bfd7a82dd813107ada8cc83e04f678691f436ae9e55924ced535bd32a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-linux-x86_64.zip
+    linux-x86_64: sha256:0502f286ac9ed860b629a7965a14527b1f2dd131e4283fa23c2d7f184672aa9a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-osx-aarch_64.zip
+    osx-aarch_64: sha256:8c7afae8626b6811e7b5897d16d940c2dbf50b1e135ed958a01db6566bdda726
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-osx-x86_64.zip
+    osx-x86_64: sha256:07e5fdcf1b0708d3367dc5e6eb8d135de7e407d75316c93155cfd8ab362eec80
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-win32.zip
+    win32: sha256:f39c948386cc167bc79659d3fdaaf3609f6ce8da6a48f780c322542580deb1f3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-win64.zip
+    win64: sha256:a309c39442fb75f0db343cb22c111a00f91cdf0767f332e170644b9378e2bcc6
