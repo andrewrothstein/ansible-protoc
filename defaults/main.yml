@@ -1,5 +1,5 @@
 ---
-protoc_ver: '23.4'
+protoc_ver: '24.0'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -661,3 +661,22 @@ protoc_checksums:
     win32: sha256:f39c948386cc167bc79659d3fdaaf3609f6ce8da6a48f780c322542580deb1f3
     # https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-win64.zip
     win64: sha256:a309c39442fb75f0db343cb22c111a00f91cdf0767f332e170644b9378e2bcc6
+  '24.0':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.0/protoc-24.0-linux-aarch_64.zip
+    linux-aarch_64: sha256:d27f1479fc4707f275eaa952cef548f9fa0c8ef2d8cb5977f337d2ce61430682
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.0/protoc-24.0-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:0a5daa2cb0927998fa05e6dcbf9de04a462652216e59b3e5af661068b6f219bc
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.0/protoc-24.0-linux-s390_64.zip
+    linux-s390_64: sha256:49b19b4520ed09fa5b1c5344939cfaf62e30e881048b403e1c8407d28dbfc227
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.0/protoc-24.0-linux-x86_32.zip
+    linux-x86_32: sha256:052e75f91e785d0992f931be692deff3982a6c4d90a4aa536e051a08e91c046a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.0/protoc-24.0-linux-x86_64.zip
+    linux-x86_64: sha256:4feef12d91c4e452eac8c45bd11f43d51541db7fc6c18b4ca7bdd38af52c9d15
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.0/protoc-24.0-osx-aarch_64.zip
+    osx-aarch_64: sha256:e4cc0739f0f8ae31633fb11335f11e6fbe067ecda8fd1b4716e80cfe3661ee1d
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.0/protoc-24.0-osx-x86_64.zip
+    osx-x86_64: sha256:c438ae68427aa848f4e2dbf7d6cbd4e6a13e30a6bcc61007fd95cfc90451264a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.0/protoc-24.0-win32.zip
+    win32: sha256:0189d457664b22e06e78428fb377d11b2bca03b7a90bad8741a3421b42864918
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.0/protoc-24.0-win64.zip
+    win64: sha256:8c84d3d36936424a99934a9e5034f8a573615bf7f1b4246d536f33c120af60cd
