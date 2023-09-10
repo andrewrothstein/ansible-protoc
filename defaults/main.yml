@@ -1,5 +1,5 @@
 ---
-protoc_ver: '24.2'
+protoc_ver: '24.3'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -718,3 +718,22 @@ protoc_checksums:
     win32: sha256:380aa6855cec387e400125696ce3c92d5315a51692772eeefab3dc3f50df2a09
     # https://github.com/protocolbuffers/protobuf/releases/download/v24.2/protoc-24.2-win64.zip
     win64: sha256:e0cbca02e34aca5c76059f8b78000512a83c77409f7137ec6977fc554609f79f
+  '24.3':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-linux-aarch_64.zip
+    linux-aarch_64: sha256:77a5a41f3e9712af6a35de13143b9b2b77f075aa1ab18a63cca4483b30f6e3cd
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:3e451f56ecb188d93639c78fed4352b3c508cf837637a07e68519db018821b65
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-linux-s390_64.zip
+    linux-s390_64: sha256:df894474e962f9017694fee558543536721d65ddc6a23ad5d2057528d3e96838
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-linux-x86_32.zip
+    linux-x86_32: sha256:ea8fb84a62fb4a65e78de636c31487edc2d1797c6954ff45efa7fbb4b855a190
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-linux-x86_64.zip
+    linux-x86_64: sha256:fc793561283d9ea6813fb757ae54f1afea6770afcd930904bdf3e590910420aa
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-osx-aarch_64.zip
+    osx-aarch_64: sha256:cca53adb73a6686dd60bb3b0da33961e6b9dab1f833c851b5e1bb7b5df02b36f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-osx-x86_64.zip
+    osx-x86_64: sha256:13b45cdcde9b2101e982de897d5490cfd81dfa181605749c23982379ba0e3288
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-win32.zip
+    win32: sha256:ad42fdf77c01ada4617f25b483dcf073c8ef432c5778cfa4d6fcec0e21637bd8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-win64.zip
+    win64: sha256:c8f8c87e2eb6ba1e45f1f0b7b6c17f129309fff421c04290e272de1f7defd8f1
