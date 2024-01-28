@@ -1,8 +1,9 @@
 ---
-- include_role:
+- name: Installing andrewrothstein.unarchivedeps
+  ansible.builtin.include_role:
     name: andrewrothstein.unarchivedeps
-- name: resolve platform specific vars
-  include_vars: '{{ item }}'
+- name: Resolve platform specific vars
+  ansible.builtin.include_vars: '{{ item }}'
   with_first_found:
     - files:
         - '{{ ansible_distribution }}-{{ ansible_distribution_release }}.yml'
@@ -11,45 +12,46 @@
       skip: true
       paths:
         - '{{ role_path }}/vars'
-- name: look for install in {{ protoc_install_dir }}
+- name: Look for install in {{ protoc_install_dir }}
   become: true
-  stat:
+  ansible.builtin.stat:
     path: '{{ protoc_install_dir }}'
   changed_when: false
   register: protoc_binary
-- when: not protoc_binary.stat.exists
+- name: Downloading and installing protobuf tools
+  when: not protoc_binary.stat.exists
   block:
-    - name: downloading {{ protoc_url }} to {{ protoc_tmp_zip }}
+    - name: Downloading {{ protoc_url }} to {{ protoc_tmp_zip }}
       become: true
       become_user: root
-      get_url:
+      ansible.builtin.get_url:
         url: '{{ protoc_url }}'
         dest: '{{ protoc_tmp_zip }}'
         checksum: '{{ protoc_checksum }}'
-        mode: '0644'
-    - name: mkdir {{ protoc_install_dir }}
+        mode: '644'
+    - name: Mkdir {{ protoc_install_dir }}
       become: true
       become_user: root
-      file:
+      ansible.builtin.file:
         path: '{{ protoc_install_dir }}'
         state: directory
-        mode: 0755
-    - name: unarchiving {{ protoc_tmp_zip }}
+        mode: '755'
+    - name: Unarchiving {{ protoc_tmp_zip }}
       become: true
       become_user: root
-      unarchive:
+      ansible.builtin.unarchive:
         remote_src: true
         src: '{{ protoc_tmp_zip }}'
         dest: '{{ protoc_install_dir }}'
         creates: '{{ protoc_install_dir }}/bin/protoc'
   always:
-    - name: rm {{ protoc_tmp_zip }}
+    - name: Rm {{ protoc_tmp_zip }}
       become: true
       become_user: root
-      file:
+      ansible.builtin.file:
         path: '{{ protoc_tmp_zip }}'
         state: absent
-- name: mark executables/directories as executable/readable
+- name: Mark executables/directories as executable/readable
   become: true
   become_user: root
   with_items:
@@ -59,16 +61,16 @@
       t: directory
     - p: '{{ protoc_install_dir }}/bin/protoc'
       t: file
-  file:
+  ansible.builtin.file:
     path: '{{ item.p }}'
-    mode: '0755'
+    mode: '755'
     state: '{{ item.t }}'
-- name: link executables...
+- name: Link executables...
   become: true
   become_user: root
   with_items:
     - protoc
-  file:
+  ansible.builtin.file:
     src: '{{ protoc_install_dir }}/bin/{{ item }}'
     dest: '{{ protoc_parent_install_dir }}/bin/{{ item }}'
     state: link

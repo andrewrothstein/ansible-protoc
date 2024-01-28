@@ -1,10 +1,12 @@
 ---
 - hosts: all
   roles:
-  - role: '{{ playbook_dir }}'
+    - role: '{{ playbook_dir }}'
   tasks:
-  - command: /usr/local/bin/protoc --version
-    register: protoc_test_output
-  - name: protoc --version
-    debug:
-      msg: '{{ protoc_test_output.stdout }}'
+    - name: Executing 'protoc --version'
+      ansible.builtin.command: /usr/local/bin/protoc --version
+      changed_when: false
+      register: protoc_test_output
+    - name: Output from 'protoc --version'
+      ansible.builtin.debug:
+        msg: '{{ protoc_test_output.stdout }}'
