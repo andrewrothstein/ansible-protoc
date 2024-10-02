@@ -1,5 +1,5 @@
 ---
-protoc_ver: '28.1'
+protoc_ver: '28.2'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -984,3 +984,22 @@ protoc_checksums:
     win32: sha256:db10f63fe590ced36356b91a73908da7d689ab82172df27df3e595574ef14cf3
     # https://github.com/protocolbuffers/protobuf/releases/download/v28.1/protoc-28.1-win64.zip
     win64: sha256:8ab709113bf3156e789d45e99401924ca5305267ad3fd9001727d945797e6748
+  '28.2':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v28.2/protoc-28.2-linux-aarch_64.zip
+    linux-aarch_64: sha256:91d8253cdc0f0f0fc51c2b69c80677996632f525ad84504bfa5b4ee38ad3e49c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v28.2/protoc-28.2-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:c5c16b4767ff8866090ee10e87090300105201b5db1ecef380edd73c2334dcd8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v28.2/protoc-28.2-linux-s390_64.zip
+    linux-s390_64: sha256:11222c438f86e87b2fdaf68a2a6cc1db2b622813fd6ed891509e2f3b0e05ee1b
+    # https://github.com/protocolbuffers/protobuf/releases/download/v28.2/protoc-28.2-linux-x86_32.zip
+    linux-x86_32: sha256:b9c8d3a28e4bab959cc10e6c9a38f17c5946737369bfe013f51a86d7d36cfff1
+    # https://github.com/protocolbuffers/protobuf/releases/download/v28.2/protoc-28.2-linux-x86_64.zip
+    linux-x86_64: sha256:2febfd42b59ce93a28eb789019a470a3dd0449619bc04f84dad1333da261dec1
+    # https://github.com/protocolbuffers/protobuf/releases/download/v28.2/protoc-28.2-osx-aarch_64.zip
+    osx-aarch_64: sha256:7bb048f52841789d9ec61983be0ce4c9e4fb3bd9a143462820ba9a3be0a03797
+    # https://github.com/protocolbuffers/protobuf/releases/download/v28.2/protoc-28.2-osx-x86_64.zip
+    osx-x86_64: sha256:232f07d12bf4806207a79ec2c7378301c52e6f2f7efdd21c0dd416f0bda103ec
+    # https://github.com/protocolbuffers/protobuf/releases/download/v28.2/protoc-28.2-win32.zip
+    win32: sha256:57a8696eabed520975f4fa469141b0b82fa2108623d18b723aa8bec9a7b4bb58
+    # https://github.com/protocolbuffers/protobuf/releases/download/v28.2/protoc-28.2-win64.zip
+    win64: sha256:4bde19271ed7cab9003570f28c6e4c4d71963eaf1211a86bf3bb25d9b895177a
