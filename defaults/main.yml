@@ -1,5 +1,5 @@
 ---
-protoc_ver: '29.0'
+protoc_ver: '29.1'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -1041,3 +1041,22 @@ protoc_checksums:
     win32: sha256:d79e27cce4c401745411173c5eb68116c3e20400b1cc4c2dd2cb477a779418fe
     # https://github.com/protocolbuffers/protobuf/releases/download/v29.0/protoc-29.0-win64.zip
     win64: sha256:d03b9219858b8a4ca88063b78bf0a5cde73b51808b930c4b66f06e8482c3abe6
+  '29.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v29.1/protoc-29.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:1f74a3f3355de7c0666bc125611c13532c2598f853521d0d3e621a5b09f24799
+    # https://github.com/protocolbuffers/protobuf/releases/download/v29.1/protoc-29.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:075bd666ad41eb404a923bfafa90a4afa2074a2c9aa8b9c77c4445e616e8ef9b
+    # https://github.com/protocolbuffers/protobuf/releases/download/v29.1/protoc-29.1-linux-s390_64.zip
+    linux-s390_64: sha256:2797cd565ca7ffbfc02da56cca013bff4f97e683248b3b99dcf7d4bb17f6ec61
+    # https://github.com/protocolbuffers/protobuf/releases/download/v29.1/protoc-29.1-linux-x86_32.zip
+    linux-x86_32: sha256:9ddfc401b12a0b87471e0e0f3a0d0c2a9072463f041435149e949f8a2082bbeb
+    # https://github.com/protocolbuffers/protobuf/releases/download/v29.1/protoc-29.1-linux-x86_64.zip
+    linux-x86_64: sha256:00c83fe9722d85e96c81b941b29f17a744b33b4ce66e0f18009fd8937de22c60
+    # https://github.com/protocolbuffers/protobuf/releases/download/v29.1/protoc-29.1-osx-aarch_64.zip
+    osx-aarch_64: sha256:b8fd5976926198a7c4ea5c6eb4bf78959d5faed27bfc618254caa1043f770445
+    # https://github.com/protocolbuffers/protobuf/releases/download/v29.1/protoc-29.1-osx-x86_64.zip
+    osx-x86_64: sha256:db02b4b86de4d4cced3ea9934347da28dc95e7f38863ffc4ce3cc26283028da6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v29.1/protoc-29.1-win32.zip
+    win32: sha256:1105e0fa64459f0b1af5ee4d5877dab864f2e10d8aeb04618f2b69c6c3a6ed03
+    # https://github.com/protocolbuffers/protobuf/releases/download/v29.1/protoc-29.1-win64.zip
+    win64: sha256:7ea48225857ffc1224588c335c2b1af9d78a18af9d57c0528cca3193e336e9ce
