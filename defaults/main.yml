@@ -1,5 +1,5 @@
 ---
-protoc_ver: '29.3'
+protoc_ver: '30.0'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -1098,3 +1098,22 @@ protoc_checksums:
     win32: sha256:c7c8028c1c4d801c53602920f2c86892054086bd965b6b23a4ba95d211dcb1d4
     # https://github.com/protocolbuffers/protobuf/releases/download/v29.3/protoc-29.3-win64.zip
     win64: sha256:57ea59e9f551ad8d71ffaa9b5cfbe0ca1f4e720972a1db7ec2d12ab44bff9383
+  '30.0':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-linux-aarch_64.zip
+    linux-aarch_64: sha256:5ab347b71fb8a87139cec36aac4bd0ee3ac3f4f2af9fc68ebdf556e1c0a665c6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:c9618de2d15e20f167d326a8cc079dfd1f044c055e0c8bfb789e36f20b8492d3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-linux-s390_64.zip
+    linux-s390_64: sha256:798714d7db9115f4e042be86dd1eeab97346df5431a1fe101615c9c1c1e164cf
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-linux-x86_32.zip
+    linux-x86_32: sha256:3ad310fcdc2b4bf9f30f542b59b403b2b79ba82b2cf4319be84de9a02645ae76
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-linux-x86_64.zip
+    linux-x86_64: sha256:2fbbc1818463d7e6d93c19a8dea839e663ca5f8579a52ef78c7688188335fa6c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-osx-aarch_64.zip
+    osx-aarch_64: sha256:7eb5b51d37bac410ba70ef91c404f90b1fabcb823712ff656582d34acc87ca74
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-osx-x86_64.zip
+    osx-x86_64: sha256:96bf3a5fbeefd57d7dc0c20a2c7bb3f226ad84b79e5b509386824322017b9417
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-win32.zip
+    win32: sha256:83d73b7a39f2811c6107f6b39285ac5b0f0f466361d4683dea3efde9636432e6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-win64.zip
+    win64: sha256:c84c30dac88c68b40a2e47c5b6c762dc1ec09aeeb32c1d1e7ecf25d79dcf9cda
