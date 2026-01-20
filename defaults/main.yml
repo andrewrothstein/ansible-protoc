@@ -1,5 +1,5 @@
 ---
-protoc_ver: '30.0'
+protoc_ver: '33.4'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -1117,3 +1117,212 @@ protoc_checksums:
     win32: sha256:83d73b7a39f2811c6107f6b39285ac5b0f0f466361d4683dea3efde9636432e6
     # https://github.com/protocolbuffers/protobuf/releases/download/v30.0/protoc-30.0-win64.zip
     win64: sha256:c84c30dac88c68b40a2e47c5b6c762dc1ec09aeeb32c1d1e7ecf25d79dcf9cda
+  '30.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protoc-30.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:e866d3dc4775e8032721915e83e3fb6e1ab4def7199a49b4f95c4d1f6cf4c03a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protoc-30.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:42f0c61b777dcbb9d231bfadcb8de2cffbe0625e16147dbea0e766785a41eb44
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protoc-30.1-linux-s390_64.zip
+    linux-s390_64: sha256:a2b8231c1159b00bac870b6ed4e16ce9d5d2b089a0e0e916fdf3d70893620bb6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protoc-30.1-linux-x86_32.zip
+    linux-x86_32: sha256:2f9a117482bd12b8a9340c2127d88779f4dda3b64b4da709278dc499a43a7386
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protoc-30.1-linux-x86_64.zip
+    linux-x86_64: sha256:5537e15ab0c0e610f809573948d3ec7d6ef387a07991e1c361a2a0e8cad983e5
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protoc-30.1-osx-aarch_64.zip
+    osx-aarch_64: sha256:03467cfd967de12a61406b7473e80204d3ae38f30f82855318186d696237e3b9
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protoc-30.1-osx-x86_64.zip
+    osx-x86_64: sha256:a4aeefd2f59ccce59cfa01a89fe58adb40bb9010f43adfca3c4fee7fd37ec2c5
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protoc-30.1-win32.zip
+    win32: sha256:9df447b13fa28c9aaac1174f59bdf4025f4a1bdb6e4b6b3f1ceb3ee68f071101
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.1/protoc-30.1-win64.zip
+    win64: sha256:77f4e022ce9e8b087cb893f53f5e433734942d125e4cd2fecbf830ac7760045c
+  '30.2':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.2/protoc-30.2-linux-aarch_64.zip
+    linux-aarch_64: sha256:a3173ea338ef91b1605b88c4f8120d6c8ccf36f744d9081991d595d0d4352996
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.2/protoc-30.2-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:e9e4c5bd017908dc667818357a042471ec98555913043580d240661678dd84b3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.2/protoc-30.2-linux-s390_64.zip
+    linux-s390_64: sha256:d590477ee1d6e2b810856b77227342fb2c391931786c85ed12a3cc741d59974f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.2/protoc-30.2-linux-x86_32.zip
+    linux-x86_32: sha256:c27308796e7945b36a71ddebbd1e51f253f632355d830913424b54c03c7732c6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.2/protoc-30.2-linux-x86_64.zip
+    linux-x86_64: sha256:327e9397c6fb3ea2a542513a3221334c6f76f7aa524a7d2561142b67b312a01f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.2/protoc-30.2-osx-aarch_64.zip
+    osx-aarch_64: sha256:92728c650f6cf2b6c37891ae04ef5bc2d4b5f32c5fbbd101eda623f90bb95f63
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.2/protoc-30.2-osx-x86_64.zip
+    osx-x86_64: sha256:65675c3bb874a2d5f0c941e61bce6175090be25fe466f0ec2d4a6f5978333624
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.2/protoc-30.2-win32.zip
+    win32: sha256:5cae95acdf1690c0a24f187dba7cba25d8ee60085cc951a7d9274cfe0771d916
+    # https://github.com/protocolbuffers/protobuf/releases/download/v30.2/protoc-30.2-win64.zip
+    win64: sha256:10f35df7722a69dde8ee92b4a16a4e1cc91cfce82fbb4a371bd046de139aa4a9
+  '31.0':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.0/protoc-31.0-linux-aarch_64.zip
+    linux-aarch_64: sha256:999f4c023366b0b68c5c65272ead7877e47a2670245a79904b83450575da7e19
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.0/protoc-31.0-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:8eb6ca61a59184d0f5daf1c87d49de99d5b93ee756c7121bc514bf35b4714a08
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.0/protoc-31.0-linux-s390_64.zip
+    linux-s390_64: sha256:a26c45a22813fb2582032c17cc27bbc42a7425066ea1e8a0134cef0c97a473b8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.0/protoc-31.0-linux-x86_32.zip
+    linux-x86_32: sha256:ac5f35556a66d8cbdccd03658275e7208f234e23fa4522dc5e30fc88a5d631ed
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.0/protoc-31.0-linux-x86_64.zip
+    linux-x86_64: sha256:24e2ed32060b7c990d5eb00d642fde04869d7f77c6d443f609353f097799dd42
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.0/protoc-31.0-osx-aarch_64.zip
+    osx-aarch_64: sha256:1fbe70a8d646875f91b6fd57294f763145292b2c9e1374ab09d6e2124afdd950
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.0/protoc-31.0-osx-x86_64.zip
+    osx-x86_64: sha256:0360d9b6d9e3d66958cf6274d8514da49e76d475fd0d712181dcc7e9e056f2c8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.0/protoc-31.0-win32.zip
+    win32: sha256:ec49ae24db4daa94c40e5afcc047d309a61ee15f95451ad8e5c7a13fd3fdb9b7
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.0/protoc-31.0-win64.zip
+    win64: sha256:d7edee5d0d5d6786c92e77a4f511e4698a5aa922c6390b6d08c3a79935a651b0
+  '31.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.1/protoc-31.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:6c554de11cea04c56ebf8e45b54434019b1cd85223d4bbd25c282425e306ecc2
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.1/protoc-31.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:89df1639f9c34d30f55a85add480f6bd6075a61ba775aa6868e7575d18398164
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.1/protoc-31.1-linux-s390_64.zip
+    linux-s390_64: sha256:79ae81c736293b4a8d57b1509b568aecea9d7f97d1a2ed599cbfa2b887cc8511
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.1/protoc-31.1-linux-x86_32.zip
+    linux-x86_32: sha256:1430e3877f98ac8c7657c1cc49e66d5f2ff1afb52bff0b0020ce2d2812ec8334
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.1/protoc-31.1-linux-x86_64.zip
+    linux-x86_64: sha256:96553041f1a91ea0efee963cb16f462f5985b4d65365f3907414c360044d8065
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.1/protoc-31.1-osx-aarch_64.zip
+    osx-aarch_64: sha256:4aeea0a34b0992847b03a8489a8dbedf3746de01109b74cc2ce9b6888a901ed9
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.1/protoc-31.1-osx-x86_64.zip
+    osx-x86_64: sha256:485e87088b18614c25a99b1c0627918b3ff5b9fde54922fb1c920159fab7ba29
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.1/protoc-31.1-win32.zip
+    win32: sha256:74c4e34a41c654934a1f4c7d5e3f831a7b216d867717cdf730f82e1e10c1d0e2
+    # https://github.com/protocolbuffers/protobuf/releases/download/v31.1/protoc-31.1-win64.zip
+    win64: sha256:70381b116ab0d71cb6a5177d9b17c7c13415866603a0fd40d513dafe32d56c35
+  '32.0':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.0/protoc-32.0-linux-aarch_64.zip
+    linux-aarch_64: sha256:56af3fc2e43a0230802e6fadb621d890ba506c5c17a1ae1070f685fe79ba12d0
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.0/protoc-32.0-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:98663e26aaed794bc2e23339fd63b3b3931d348961852b6f5a4edbdcafa35b05
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.0/protoc-32.0-linux-s390_64.zip
+    linux-s390_64: sha256:c1b70a3947b1df88c145b8aef8acf868cded1b3b813125221f0bfb610ff13bb7
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.0/protoc-32.0-linux-x86_32.zip
+    linux-x86_32: sha256:4592cb6af34a03d9171fbfc13a798bb530127d99e6d5b1bc95f2b7a09c9cd4cb
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.0/protoc-32.0-linux-x86_64.zip
+    linux-x86_64: sha256:7ca037bfe5e5cabd4255ccd21dd265f79eb82d3c010117994f5dc81d2140ee88
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.0/protoc-32.0-osx-aarch_64.zip
+    osx-aarch_64: sha256:09a2c729cc821215cc0d4c564b761760961fe338c52f24b302fd7e18e7b675d1
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.0/protoc-32.0-osx-x86_64.zip
+    osx-x86_64: sha256:63eeba15ddc12ab11b0a8bce81fb2d46cc69022c3e6ad21fecde90d52139bff6
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.0/protoc-32.0-win32.zip
+    win32: sha256:11b6d3662b179e277d8af34a87700dc4ecb2b5695168ac65226798a2798afd48
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.0/protoc-32.0-win64.zip
+    win64: sha256:89c178e9f878cb6dd561f677688e1eb2e757cb9ac84ae30b64436bac19646996
+  '32.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.1/protoc-32.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:4a802ed23d70f7bad7eb19e5a3e724b3aa967250d572cadfd537c1ba939aee6a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.1/protoc-32.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:3f48a35bd0ed1f8a1fcb9fd633f483e882dcb5bfee92ad6aae6042877840b0c5
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.1/protoc-32.1-linux-s390_64.zip
+    linux-s390_64: sha256:07a01d1fbba5a010ba1f387c056a02a339b35568c7e3dd5b02c96b94630307db
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.1/protoc-32.1-linux-x86_32.zip
+    linux-x86_32: sha256:20836553dd7a02406db8b838f49c65e8a0055531511df67ff3c26ebe274be35e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.1/protoc-32.1-linux-x86_64.zip
+    linux-x86_64: sha256:e9c129c176bb7df02546c4cd6185126ca53c89e7d2f09511e209319704b5dd7e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.1/protoc-32.1-osx-aarch_64.zip
+    osx-aarch_64: sha256:a7b51b2113862690fa52c62f8891a6037bafb9db88d4f9924c486de9d9bb89d5
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.1/protoc-32.1-osx-x86_64.zip
+    osx-x86_64: sha256:f9caa5b4d0b537acffb0ffd7d53225511a5574ef903fca550ea9e7600987f13b
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.1/protoc-32.1-win32.zip
+    win32: sha256:bc91a9fba925f025c06f152128bfb5d233cb1c75420d8877a5120f01def79898
+    # https://github.com/protocolbuffers/protobuf/releases/download/v32.1/protoc-32.1-win64.zip
+    win64: sha256:69569cbc178cd5785ecb7d93569913110677eafeb4b8f82970c361fad4c7cd66
+  '33.0':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-linux-aarch_64.zip
+    linux-aarch_64: sha256:4b96bc91f8b54d829b8c3ca2207ff1ceb774843321e4fa5a68502faece584272
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:4eb7682900d01e4848fe9b30b9beeffaf9ed2a8d7e8d310c50ed521dbb33411c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-linux-s390_64.zip
+    linux-s390_64: sha256:96ee21d761e93bbfa7095ed14e769446c8d9790fecfbd7d6962e858350e0da95
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-linux-x86_32.zip
+    linux-x86_32: sha256:49edaf078e48d4f45b17be31076ac7dbf64474cd7f1ee3b2cac0938bf0f778f3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-linux-x86_64.zip
+    linux-x86_64: sha256:d99c011b799e9e412064244f0be417e5d76c9b6ace13a2ac735330fa7d57ad8f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-osx-aarch_64.zip
+    osx-aarch_64: sha256:3cf55dd47118bd2efda9cd26b74f8bbbfcf5beb1bf606bc56ad4c001b543f6d3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-osx-x86_64.zip
+    osx-x86_64: sha256:e4e50a703147a92d1a5a2d3a34c9e41717f67ade67d4be72b9a466eb8f22fe87
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-win32.zip
+    win32: sha256:3941cc8aeb0e8f59f2143b65f594088f726bb857550dabae5d0dee3bf1392dd1
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.0/protoc-33.0-win64.zip
+    win64: sha256:3742cd49c8b6bd78b6760540367eb0ff62fa70a1032e15dafe131bfaf296986a
+  '33.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:6018147740548e0e0f764408c87f4cd040e6e1c1203e13aeacaf811892b604f3
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:01d54870bc5887fc0afc92fd809d12de73e2e8cc42095b20ea0da98b06063c95
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-linux-s390_64.zip
+    linux-s390_64: sha256:c12fb49fd4479180851270c664197922ece3834f14ded53376bfc0bc4b625597
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-linux-x86_32.zip
+    linux-x86_32: sha256:af23664fee261ed53a4bed40bf0c0d198e690839f6d5ced60751ea72b86d314a
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-linux-x86_64.zip
+    linux-x86_64: sha256:f3340e28a83d1c637d8bafdeed92b9f7db6a384c26bca880a6e5217b40a4328b
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-osx-aarch_64.zip
+    osx-aarch_64: sha256:db7e66ff7f9080614d0f5505a6b0ac488cf89a15621b6a361672d1332ec2e14e
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-osx-x86_64.zip
+    osx-x86_64: sha256:e20b5f930e886da85e7402776a4959efb1ed60c57e72794bcade765e67abaa82
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-win32.zip
+    win32: sha256:f52a79ce2a70d421f55be880d3af48d6b22865f2119dd63df6423d1ce9027e31
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.1/protoc-33.1-win64.zip
+    win64: sha256:d7a207fb6eec0e4b1b6613be3b7d11905375b6fd1147a071116eb8e9f24ac53b
+  '33.2':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.2/protoc-33.2-linux-aarch_64.zip
+    linux-aarch_64: sha256:706662a332683aa2fffe1c4ea61588279d31679cd42d91c7d60a69651768edb8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.2/protoc-33.2-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:16b4a36c07daab458bc040523b1f333ddd37e1440fa71634f297a458c7fef4c4
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.2/protoc-33.2-linux-s390_64.zip
+    linux-s390_64: sha256:c53c6513ebd6cd8c3592e2d75ea9d8aa1a91be3ba1e17f3bf95cabc2d6b8c3e0
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.2/protoc-33.2-linux-x86_32.zip
+    linux-x86_32: sha256:df4ead795116faa45eec2a2d964135be04392a483d7bf1b041c75f89dfbd4e2d
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.2/protoc-33.2-linux-x86_64.zip
+    linux-x86_64: sha256:b24b53f87c151bfd48b112fe4c3a6e6574e5198874f38036aff41df3456b8caf
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.2/protoc-33.2-osx-aarch_64.zip
+    osx-aarch_64: sha256:5be1427127788c9f7dd7d606c3e69843dd3587327dea993917ffcb77e7234b44
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.2/protoc-33.2-osx-x86_64.zip
+    osx-x86_64: sha256:dba51cfcc85076d56e7de01a647865c5a7f995c3dce427d5215b53e50b7be43f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.2/protoc-33.2-win32.zip
+    win32: sha256:bb76077c45a4254a65f06f746dda9cd346d8b555ab1a25ebc55548829c06b4ce
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.2/protoc-33.2-win64.zip
+    win64: sha256:376770cd4073beb63db56fdd339260edb9957b3c4472e05a75f5f9ec8f98d8f5
+  '33.3':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.3/protoc-33.3-linux-aarch_64.zip
+    linux-aarch_64: sha256:56652fe893d8588b80754d94132d0575abe6666a9fe52cde4154f47ee1482a46
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.3/protoc-33.3-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:be154614beba0481c3a312dd1f2eef6149e9f8e4124b2424ca14096da00dccb5
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.3/protoc-33.3-linux-s390_64.zip
+    linux-s390_64: sha256:5f6a2ec8f0bff6d371a919986787f898e17c380dd75e4d80bbaf6c14348ad5ed
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.3/protoc-33.3-linux-x86_32.zip
+    linux-x86_32: sha256:a7ad3e7d3aee41f934093f507604ca60b54ce986f7f9dc3ff9504d34ace38a0f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.3/protoc-33.3-linux-x86_64.zip
+    linux-x86_64: sha256:2dbe6e2165f7721a58c2dc9e40fb47c5e3c2d63fb420c1f497db4ad3eb310ff8
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.3/protoc-33.3-osx-aarch_64.zip
+    osx-aarch_64: sha256:8e5a38ecdc94b92e98a0e29c8ad4451d035e8226d466c3b2ebc60813629bb3bc
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.3/protoc-33.3-osx-x86_64.zip
+    osx-x86_64: sha256:0bb4e36daf61facb76abd1d6e075b59c3dcfaf47bfbde254b13fb10beb734fdd
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.3/protoc-33.3-win32.zip
+    win32: sha256:b45b084de3f44fc0328e1547186abeb4f5438fdb3c3ec5f26288cad260034d39
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.3/protoc-33.3-win64.zip
+    win64: sha256:1b845f9c78080033064509325e191670e09fbc74f966587f8e752557374d56ad
+  '33.4':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-linux-aarch_64.zip
+    linux-aarch_64: sha256:15aa988f4a6090636525ec236a8e4b3aab41eef402751bd5bb2df6afd9b7b5a5
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:97fc078d43cd6bb8d38f7cce20ddd0e187b4ba79d972e7543edd16bb3ff30d62
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-linux-s390_64.zip
+    linux-s390_64: sha256:44dcc615f0c23f644033f295862902d13c1f67e650851bb22e76b3837a8521ab
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-linux-x86_32.zip
+    linux-x86_32: sha256:c2b9049a48d5d0d158df0099d9f709dba9123af7a3eda7c520bf69651b3f14ed
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-linux-x86_64.zip
+    linux-x86_64: sha256:c0040ea9aef08fdeb2c74ca609b18d5fdbfc44ea0042fcfbfb38860d35f7dd66
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-osx-aarch_64.zip
+    osx-aarch_64: sha256:726297dcfed58592fd35620a5a6246ae020c39e88f3fd4cb1827df7bcf3dfcf1
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-osx-x86_64.zip
+    osx-x86_64: sha256:a49bec10d039e902d3b43e49938c42526f90011467609864fa6386ac4014da58
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-win32.zip
+    win32: sha256:5b7069e637d628171d62c3982b2d4f10ec2cce7642e028b6fc4873bc19796b25
+    # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-win64.zip
+    win64: sha256:0b31be019b9fe45a388e93bf1f16d70afdf9ce5caf958ea47892fbc868b5a1b3

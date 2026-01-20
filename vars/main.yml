@@ -1,6 +1,6 @@
 ---
-protoc_os: '{{ protoc_os_map[ansible_system] }}'
-protoc_arch: '{{ protoc_arch_map[ansible_architecture] }}'
+protoc_os: '{{ protoc_os_map[ansible_facts["system"]] }}'
+protoc_arch: '{{ protoc_arch_map[ansible_facts["architecture"]] }}'
 protoc_platform: '{{ protoc_os }}-{{ protoc_arch }}'
 protoc_zip: protoc-{{ protoc_ver }}-{{ protoc_platform }}.zip
 protoc_tmp_zip: /tmp/{{ protoc_zip }}
