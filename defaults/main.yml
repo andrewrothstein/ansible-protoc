@@ -1,5 +1,5 @@
 ---
-protoc_ver: '33.4'
+protoc_ver: '34.1'
 protoc_os_map:
   Linux: linux
   Darwin: osx
@@ -1326,3 +1326,22 @@ protoc_checksums:
     win32: sha256:5b7069e637d628171d62c3982b2d4f10ec2cce7642e028b6fc4873bc19796b25
     # https://github.com/protocolbuffers/protobuf/releases/download/v33.4/protoc-33.4-win64.zip
     win64: sha256:0b31be019b9fe45a388e93bf1f16d70afdf9ce5caf958ea47892fbc868b5a1b3
+  '34.1':
+    # https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-linux-aarch_64.zip
+    linux-aarch_64: sha256:31c5e9e3c7bf013cf41fb97765ee255c140024a6b175b6cc9b64beddd7c23ba7
+    # https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-linux-ppcle_64.zip
+    linux-ppcle_64: sha256:9160f1336e266dd0b389a29c4ffabded6cc9b80ab29f2da423106d6fe75b2ce2
+    # https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-linux-s390_64.zip
+    linux-s390_64: sha256:70994942bc60e3ac10e6b363d320dec902385af8ceb4028ee979d4c2fc054a6f
+    # https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-linux-x86_32.zip
+    linux-x86_32: sha256:dad6d6f402b18e7ca4ed3666336ac034bc12695906f773e059602f0c4adc8f91
+    # https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-linux-x86_64.zip
+    linux-x86_64: sha256:af27ea66cd26938fe48587804ca7d4817457a08350021a1c6e23a27ccc8c6904
+    # https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-osx-aarch_64.zip
+    osx-aarch_64: sha256:2c7e92b8b578916937df132b3032e2e8e6c170862ecf7a8333094a6f3d03650c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-osx-x86_64.zip
+    osx-x86_64: sha256:ab124429c1f49951f03b6c0c0e911fec04e2c7c20de5c935e0cde7353bbd016c
+    # https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-win32.zip
+    win32: sha256:14f5696f6f1ba37e91488be39b0ea59bb2230cde266e63f6f65610b3c5f54550
+    # https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-win64.zip
+    win64: sha256:6d7ebdc75e9c1f0026d4fb28f17ef1d0aae77d36744d83a9e052d79ba493724f
